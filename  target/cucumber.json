@@ -1,0 +1,301 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-04T17:22:37.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 991000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Navigate Fleet--\u003eVehicle",
+        "description": "",
+        "id": "sales-manager-should-be-able-to-navigate-to-pages.;navigate-fleet--\u003evehicle",
+        "after": [
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 656000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters the sales manager information",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_sales_manager_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to Fleet, Vehicles",
+            "match": {
+              "location": "com.vytrack.step_definitions.NavigateStepDefs.the_user_navigates_to_Fleet_Vehicles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the title should be Vehicle",
+            "match": {
+              "location": "com.vytrack.step_definitions.NavigateStepDefs.the_title_should_be_Vehicle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigate"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T17:22:37.959Z",
+        "before": [
+          {
+            "result": {
+              "duration": 129000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUpdb()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Navigating marketing - Campaigns",
+        "description": "",
+        "id": "sales-manager-should-be-able-to-navigate-to-pages.;navigating-marketing---campaigns",
+        "after": [
+          {
+            "result": {
+              "duration": 94000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDowndb()"
+            }
+          },
+          {
+            "result": {
+              "duration": 198000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters the sales manager information",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_sales_manager_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user navigates to Marketing , Campaigns",
+            "match": {
+              "location": "com.vytrack.step_definitions.NavigateStepDefs.the_user_navigates_to_Marketing_Campaigns()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title should be Campaigns",
+            "match": {
+              "location": "com.vytrack.step_definitions.NavigateStepDefs.title_should_be_Campaigns()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigate"
+          },
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T17:22:37.971Z",
+        "before": [
+          {
+            "result": {
+              "duration": 169000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Navigatung Activities-- Calendar Events",
+        "description": "",
+        "id": "sales-manager-should-be-able-to-navigate-to-pages.;navigatung-activities---calendar-events",
+        "after": [
+          {
+            "result": {
+              "duration": 172000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 260000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user enters the sales manager information",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_sales_manager_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user navigates to Activities, Calendar Events",
+            "match": {
+              "location": "com.vytrack.step_definitions.NavigateStepDefs.the_user_navigates_to_Activities_Calendar_Events()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "title should be Calendar",
+            "match": {
+              "location": "com.vytrack.step_definitions.NavigateStepDefs.title_should_be_Calendar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigate"
+          }
+        ]
+      }
+    ],
+    "name": "Sales manager should be able to navigate to pages.",
+    "description": "",
+    "id": "sales-manager-should-be-able-to-navigate-to-pages.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NavigationMenu.feature",
+    "tags": [
+      {
+        "name": "@Navigate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
